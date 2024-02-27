@@ -73,14 +73,32 @@ ul.slides li {
     margin-right: 50px !important;
 }
 
-.our-services a .icon-hover-class,
+.yt-video-bg,
+.popular-videos a .icon-hover-class,
 .our-services a .icon-hover-class,
 .our-services a h3{
     transition: all 0.5s;
 }
 .our-services a:hover .icon-hover-class,
-.our-services a:hover .icon-hover-class,
 .our-services a:hover h3 {
     color:#ffc107;
     transform: scale(1.2);
+}
+
+.popular-videos a:hover .icon-hover-class{
+    color: red;
+}
+
+.popular-videos a:hover .yt-video-bg {
+    background: rgba(255,255,255,.5);
+    /* background: black; */
+}
+
+.popular-videos a:hover .yt-title-hover{
+    color: red;
+}
+
+
+.youtube-icon-bg {
+    color: #ffc107;
 }

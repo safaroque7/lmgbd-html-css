@@ -84,29 +84,45 @@
 .yt-video-bg,
 .popular-videos a .icon-hover-class,
 .our-services a .icon-hover-class,
-.our-services a h3{
+.our-services a h3 {
     transition: all 0.5s;
 }
+
 .our-services a:hover .icon-hover-class,
 .our-services a:hover h3 {
-    color:#ffc107;
+    color: #ffc107;
     transform: scale(1.2);
 }
 
-.popular-videos a:hover .icon-hover-class{
+.popular-videos a:hover .icon-hover-class {
     color: red;
 }
 
 .popular-videos a:hover .yt-video-bg {
-    background: rgba(255,255,255,.5);
+    background: rgba(255, 255, 255, .5);
     /* background: black; */
 }
 
-.popular-videos a:hover .yt-title-hover{
+.popular-videos a:hover .yt-title-hover {
     color: red;
 }
 
 
 .youtube-icon-bg {
     color: #ffc107;
+}
+
+.main-menu ul li .sub-menu li {
+    background: red;
+    display: block;
+    float: none;
+}
+
+.main-menu ul li .sub-menu {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+div#navbarTogglerDemo02 {
+    font-size: 25px;
 }
